@@ -1,0 +1,20 @@
+{
+  "name": "crypto-ai-app",
+  "version": "1.0.0",
+  "description": "Big data cryptocurrency analytics and AI video generation application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test src/tests/**/*.test.js"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "analytics",
+    "ai",
+    "video-generation"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  }
+}

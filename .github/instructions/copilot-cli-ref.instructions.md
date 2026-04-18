@@ -7,9 +7,27 @@ applyTo: "**/**"
 Stick to the prompts and context being provided. Don't jump ahead to doing steps.
 Only add, commit, and push files when prompted by the user.
 
+# Application overview
+
+This repository contains a Node.js application with two main feature categories:
+
+1. **Cryptocurrency Big-Data Analytics** (`src/crypto-analytics/`)
+   - `analyzer.js` — price-trend analysis, SMA/EMA, RSI, volatility, trend detection
+   - `dataFetcher.js` — market data fetching helpers (price, historical OHLCV, top coins)
+   - `index.js` — module entry point and high-level helpers (`generateReport`, `printMarketOverview`)
+
+2. **AI Video Generation** (`src/ai-video/`)
+   - `generator.js` — job creation, pipeline advancement, scene-prompt builder
+   - `processor.js` — video composition, post-processing effects, captions, thumbnails
+   - `index.js` — module entry point and high-level helper (`generateVideo`)
+
+Unit tests live in `src/tests/` and can be run with `npm test`.
+The application entry point is `src/index.js` (run with `npm start`).
+
 # New features
 
-Use .github/ISSUE_TEMPLATE/feature_request.md to request all new features for calculator.js.
+Use `.github/ISSUE_TEMPLATE/feature_request.md` to request all new features.
+The template covers all three categories: calculator, crypto analytics, and AI video generation.
 
 # Global shortcuts
 
